@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --cor-primaria: #430A5D;
+    --cor-secundaria: #DBD1D5;
+    --cor-terciaria: #8C6A5D;
+    --cor-menu: #F9F54B;
+    --cor-hover: #8C6A5D;
+
+    --fonte-primaria: "Roboto Slab", serif;
+    --fonte-secundaria: "Ubuntu Mono", monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho{
+    padding: 2% 8% 0% 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+.cabecalho__menu__link{
+    font-family: var(--fonte-secundaria);
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0px 50px 10px 0;    
+    color: var(--cor-menu);
+    text-decoration: none;
+    position: relative;
+}
+
+.cabecalho__menu__link::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: var(--cor-hover);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho__menu__link:hover::after {
+    width: 100%;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8px;
+}
+
+.apresentacao {
+    padding: 1% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__texto {
+    width: 100%;
+    font-size: 1.125rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    margin-bottom: 20px;
+}
+
+.informacao__importante {
+    background-color: red;
+    font-family: var(--fonte-secundaria);
+}
+
+.localizacao {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__imagem {
+    float: right;
+    margin-left: 100px;
+    width: 40%;
+}
+
+.imagem__bazar {
+    display: flex;
+    overflow-x: auto;
+    float: right;
+    margin-left: 100px;
+    width: 40%;
+}
+
+.bazar {
+    width: 50%;
+}
+
+.apresentacao__link__contato {
+    display: flex;
+    justify-content: center ; 
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    color: #F6F6F6;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+}
+
+.doacoes{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.apresentacao__conteudo__doacoes {
+    width: 845px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-doacoes {
+    gap: 10px;
+}
+
+.texto__doacoes {
+    width: 100%;
+    font-size: 1.125rem;
+    font-family: var(--fonte-secundaria);
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.apresentacao__contato {
+    width: 615px;
+    gap: 40px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-bottom: 298px;
+}
+
+.apresentacao__imagem__contato {
+    float: right;
+    margin-left: 100px;
+    margin-top: 80px;
+    align-items: center;
+    width: 40%;
+}
+
+.apresentacao__titulo__galeria {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-terciaria);
+    padding: 5% 15%;
+    align-items: center;
+    margin-left: 200px;
+    justify-content: space-between;
+    gap: 0.8px;
+}
+
+.apresentacao__contato__doacoes {
+    width: 900px;
+    gap: 20px;
+    display: inline;
+    text-align: center;
+}
+
+.roupas__galeria {
+    display: flex;
+    overflow-x: auto;
+}
+
+.roupas {
+    width: 50%;
+}
+
+.apresentacao__imagem__doacoes {
+    width: 100%;
+}
+
+.rodape__galeria {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 130px;
+}
+
+.rodape__contato {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.rodape {
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
