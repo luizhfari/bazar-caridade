@@ -295,16 +295,6 @@ body{
         gap: 1px;
     }
 
-    .rodape__contato {
-        padding: 10px;
-        color: var(--cor-primaria);
-        background-color: var(--cor-terciaria);
-        text-align: center;
-        font-family: var(--fonte-secundaria);
-        font-size: 1rem;
-        font-weight: 400;
-        margin-top: 80px;
-    }
     
     .rodape {
         padding: 10px;
