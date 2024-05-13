@@ -464,6 +464,7 @@ body{
 
     .apresentacao__imagem {
         width: 80%;
+        align-items: center;
     }
 
     .bazar {
