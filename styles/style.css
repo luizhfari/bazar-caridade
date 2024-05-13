@@ -241,3 +241,226 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+@media (max-width: 844px) {
+    .cabecalho {
+        padding: 1%;
+    }
+    
+    .cabecalho__menu {
+        justify-content: relative;
+        gap: 77px;
+    }
+
+    .cabecalho__menu__link {
+        width: 1%;
+        font-size: 1rem;
+        padding: 0px 1px 1px 0;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__titulo__galeria {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        gap: 10px;
+    }
+
+    .apresentacao__imagem {
+        margin-bottom: 10px;
+    }
+
+    .imagem__bazar {
+        margin-bottom: 10px;
+    }
+
+    .apresentacao__conteudo__doacoes {
+        width: auto;
+        gap: 1px;
+    }
+
+    .apresentacao__contato__doacoes {
+        width: auto;
+        gap: 1px;
+    }
+
+    .rodape__contato {
+        padding: 10px;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 80px;
+    }
+    
+    .rodape {
+        padding: 10px;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+@media (max-width: 844px) {
+    .cabecalho {
+        padding: 1%;
+    }
+    
+    .cabecalho__menu {
+        justify-content: relative;
+        gap: 77px;
+    }
+
+    .cabecalho__menu__link {
+        width: 1%;
+        font-size: 1rem;
+        padding: 0px 1px 1px 0;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__titulo__galeria {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        gap: 10px;
+    }
+
+    .apresentacao__imagem {
+        margin-bottom: 10px;
+    }
+
+    .imagem__bazar {
+        margin-bottom: 10px;
+    }
+
+    .apresentacao__conteudo__doacoes {
+        width: auto;
+        gap: 1px;
+    }
+
+    .apresentacao__contato__doacoes {
+        width: auto;
+        gap: 1px;
+    }
+
+    .rodape__contato {
+        padding: 10px;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 80px;
+    }
+    
+    .rodape {
+        padding: 10px;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+@media (max-width: 844px) {
+    .cabecalho {
+        padding: 1%;
+    }
+    
+    .cabecalho__menu {
+        justify-content: relative;
+        gap: 77px;
+    }
+
+    .cabecalho__menu__link {
+        width: 1%;
+        font-size: 1rem;
+        padding: 0px 1px 1px 0;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__titulo__galeria {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+        gap: 10px;
+    }
+
+    .apresentacao__imagem {
+        margin-bottom: 10px;
+    }
+
+    .imagem__bazar {
+        margin-bottom: 10px;
+    }
+
+    .apresentacao__conteudo__doacoes {
+        width: auto;
+        gap: 1px;
+    }
+
+    .apresentacao__contato__doacoes {
+        width: auto;
+        gap: 1px;
+    }
+
+    .rodape__contato {
+        padding: 10px;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 80px;
+    }
+    
+    .rodape {
+        padding: 10px;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
