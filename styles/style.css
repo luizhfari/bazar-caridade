@@ -445,7 +445,7 @@ body{
     }
     
     .rodape {
-        padding: 10px;
+        padding: 18px;
         color: var(--cor-primaria);
         background-color: var(--cor-terciaria);
         text-align: center;
@@ -453,4 +453,11 @@ body{
         font-size: 1rem;
         font-weight: 400;
     }
+
+    .rodape__galeria {
+        font-size: 18px;
+    }
+
+    .rodape__contato {
+        position: fixed;
 }
