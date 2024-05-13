@@ -460,4 +460,13 @@ body{
 
     .rodape__contato {
         padding: auto;
+    }
+
+    .apresentacao__imagem {
+        width: 100%;
+    }
+
+    .bazar {
+        width: 100%;
+    }
 }
