@@ -200,6 +200,7 @@ body{
 .roupas__galeria {
     display: flex;
     overflow-x: auto;
+    background-color: #DBD1D5
 }
 
 .roupas {
