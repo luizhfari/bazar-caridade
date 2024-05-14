@@ -459,7 +459,9 @@ body{
     }
 
     .rodape__contato {
-        padding: auto;
+        position: fixed; 
+        bottom: 0;
+         width: 100%;
     }
 
     .apresentacao__imagem {
